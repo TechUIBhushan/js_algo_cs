@@ -9,13 +9,17 @@ function addUpTo(n) {
   }
   return total;
 }
-
+let t1 = performance.now();
 console.log(addUpTo(6));
+let t2 = performance.now();
+console.log(`Time Elapsed ${(t2 - t1) / 1000} seconds`);
 
 // 2nd Method
 
 function addUpToNew(n) {
   return (n * (n + 1)) / 2;
 }
-
+let t3 = performance.now();
 console.log(addUpToNew(3));
+let t4 = performance.now();
+console.log(`Time Elapsed ${(t4 - t3) / 1000} seconds`);
