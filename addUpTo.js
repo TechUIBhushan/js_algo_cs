@@ -20,6 +20,6 @@ function addUpToNew(n) {
   return (n * (n + 1)) / 2;
 }
 let t3 = performance.now();
-console.log(addUpToNew(3));
+console.log(addUpToNew(1000));
 let t4 = performance.now();
 console.log(`Time Elapsed ${(t4 - t3) / 1000} seconds`);
