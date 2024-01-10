@@ -14,7 +14,7 @@ console.log(addUpTo(6));
 let t2 = performance.now();
 console.log(`Time Elapsed ${(t2 - t1) / 1000} seconds`);
 
-// 2nd Method
+// 2nd Method to need to verify
 
 function addUpToNew(n) {
   return (n * (n + 1)) / 2;
